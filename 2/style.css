@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-table {
+    width: 60%;
+    background-color: #69efec;
+    padding: 20px;
+}
+
+.content-table td {
+    width: 50%;
+}
+
+.content-table thead th {
+    text-align: left;
+    padding: 10px;
+    background-color: #7cfc5c;
+}
+
+.cetvorka {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-table td  {
+    background-color: #7cfc5c;
+    padding: 20px;
+}
