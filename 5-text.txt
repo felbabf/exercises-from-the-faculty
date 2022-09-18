@@ -1,0 +1,1 @@
+Napisati primer funkcije koja se učitava po učitavanju HTML stranice i ispisuje tekstualnu poruku u vidu upozorenja (alerta).
