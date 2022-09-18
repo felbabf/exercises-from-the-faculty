@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="main-section">
+
+        <!-- Header -->
+        <div class="header">
+            <h1><strong>Forma za ispit: </strong></h1>
+        </div>
+
+        <!-- Forma -->
+        <div class="form">
+            <!-- Ime i prezime -->
+            <div class="ime-i-prezime-form">
+                <label for="">Ime i prezime: </label>
+                <input type="text" class="ime-i-prezime">
+            </div>
+
+            <!-- Ulica i broj -->
+            <div class="ulica-i-broj-form">
+                <!-- Ulica -->
+                <div class="ulica-ulica">
+                    <label for="">Ulica: </label>
+                    <input type="text" class="ulica">
+                </div>
+                <!-- Broj -->
+                <div class="broj-broj">
+                    <label for="">Broj: </label>
+                    <input type="number" class="broj">
+                </div>
+            </div>
+
+            <!-- Postanski broj -->
+            <div class="postanski-broj-form">
+                <label for="">Postanski broj: </label>
+                <input type="text" class="postanski-broj">
+            </div>
+
+
+            <!-- Grad i drzava -->
+            <div class="grad-drzava-form">
+                <!-- Grad -->
+                <div class="grad">
+                    <label for="">Grad:</label>
+                    <input type="text" class="grad-input">
+                </div>
+                <!-- Drzava -->
+                <div class="drzava">
+                    <label for="">Drzava: </label>
+                    <select name="drzava" id="drzava-select">
+                        <option value="" selected disabled hidden>Izaberite drzavu</option>
+                        <option value="beograd">Beograd</option>
+                        <option value="novi-sad">Novi Sad</option>
+                        <option value="zrenjanin">Zrenjanin</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Deca -->
+            <div class="deca-form">
+                <label for="">Da li imate dece: </label>
+
+                <div class="deca-radio">
+                    <div class="deca-ne">
+                        <label for="ne">Ne</label>
+                        <input type="radio" id="ne">
+                    </div>
+                    
+                    <div class="deca-da">
+                        <label for="da">Da</label>
+                        <input type="radio" id="da">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deca pol -->
+            <div class="deca-pol-form">
+                <label for="">Kog pola su vasa<br> deca:</label>
+
+                <div class="deca-pol-check">
+                    <div class="deca-muski">
+                        <input type="checkbox" id="muski">
+                        <label for="ne">Muski</label>
+                    </div>
+                    
+                    <div class="deca-zenski">
+                        <input type="checkbox" id="zenski">
+                        <label for="da">Zenski</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Korisnicko ime i lozinka -->
+            <div class="korisnicko-i-lozinka-form">
+                <!-- Korisnicko -->
+                <div class="korisnicko-ime">
+                    <label for="">Korisnicko ime: </label>
+                    <input type="text" class="korisnicko-input">
+                </div>
+                <!-- Lozinka -->
+                <div class="lozinka">
+                    <label for="">Lozinka: </label>
+                    <input type="password" class="lozinka-input">
+                </div>
+            </div>
+
+            <!-- Komentar -->
+            <div class="komentar-form">
+                <label for="">Komentar: </label>
+                <div class="textarea">
+                    <textarea class="komentar-area" placeholder="Ovde ispisati komentar"></textarea>
+                </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="buttons">
+                <button class="potvrdi">POTVRDI</button>
+                <button class="odustani">ODUSTANI</button>
+            </div>
+        </div>
+       
+    </section>
+</body>
+</html>
