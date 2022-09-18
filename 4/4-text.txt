@@ -1,0 +1,1 @@
+Napisati JavaScript program koji ispisuje trenutno vreme u formatu SATI:MINUTI:SEKUNDE PM/AM
