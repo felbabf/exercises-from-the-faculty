@@ -1,0 +1,1 @@
+Napisati JavaScript funkciju koja izračunava faktorijel broja 25.
