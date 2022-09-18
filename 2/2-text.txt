@@ -1,0 +1,6 @@
+Napraviti CSS fajl zad1.css koji:
+•prikazuje tabelu širine 60% ekrana
+•prikazuje kolone širine po 50%
+•pozadinu prikazati plavom bojom (#69EFEC)
+• stil svih podataka u prvoj koloni u tabeli prikazuje kao italic, osim poslednjeg reda koji treba da bude fonta Arial
+• svako polje, neka se prikazuje sa zelenom pozadinom (#7CFC5C)
